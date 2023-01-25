@@ -1,0 +1,40 @@
+body{
+    background-color: darkcyan;
+    color: ghostwhite;
+}
+.input-wrapper , h1 ,.QR ,.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.input-wrapper> input{
+    width: 25vw;
+    height: 5vh;
+    border-radius: 20px;
+    border: 2px solid gray;
+    font-size: 20px;
+    margin-right: 10px;
+}
+.input-wrapper >button{
+    width: 12vw;
+    height: 6vh;
+    border-radius: 20px;
+    outline-style: none;
+    border: 2px solid grey;
+ 
+}
+button:hover{
+    cursor: pointer;
+}
+.QR-wrapper{
+margin-top: 5%;
+
+}
+.btn{
+    margin-top: 5%;
+}
+.btn:hover{
+    cursor: pointer;
+    color: blue;
+ 
+}
